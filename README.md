@@ -1,1 +1,1 @@
-# hacker_rank_day14
+# hacker_rank_exercises
