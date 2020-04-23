@@ -14,11 +14,9 @@ class Solution:
     new_node=Node(data)
     if head is None: 
       self.head=new_node
-      print("hey")
       return self.head      
-    last_node=self.head
-    while last_node.next:
-      print("what")
+    last_node=self.head 
+    while last_node.next: #as long as next node exits->
       last_node=last_node.next
     last_node.next=new_node
     return self.head
