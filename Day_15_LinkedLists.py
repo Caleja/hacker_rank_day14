@@ -22,7 +22,7 @@ class Solution:
     return self.head
 
 mylist=Solution()
-T=[3,7,9,5,0,1]
+T=[1,2,3,4,5,6]
 head=None
 for data in T:
   print("data:",data)
